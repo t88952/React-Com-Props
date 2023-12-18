@@ -1,14 +1,14 @@
 
 
-// Define the functional component
-const ThirdCompo = (props) => {
-    return (
-      <>
-        <h1>universal stone</h1>
-        <h2>name is {props.secondform}</h2>
-      </>
-    );
-  }
+const ThirdCompo =({newShape}) => {
   
-  // Export the component as default
-  export default ThirdCompo;
+  return(
+  <>
+    <h1>
+      New Shape is {newShape}
+    </h1>
+  </>
+  );
+}
+
+export default ThirdCompo;
